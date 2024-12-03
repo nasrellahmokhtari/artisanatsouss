@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    background-image: url(moroccan%20zellige.jpg)
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 13px;
+}
+
+.btn-start {
+    display: block; margin: 0 auto;
+    background-color: #ffcc00;
+    color: #2e7d32;
+    padding: 19px 34px;
+    border: none;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 59px;
+    text-decoration: none;
+}
+.acceuil h1 {
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.acceuil {
+    background-image: url(64c295fa9580a_1690473978.png);
+      padding: 297px;
+    background-size: cover; 
+     background-repeat: no-repeat;
+    
+    
+}
+.about h2 {
+    color: white;
+    padding: 17;
+    font-size: 54PX;
+    margin: 70px;
+    text-align: justify
+}.about p {
+    color: white;
+    padding: 12;
+    font-size: 29PX;
+    margin: 20px;
+    text-align: justify;
+    
+    
+}
+.about {
+    background-color: #225d25; /* Vert vif */
+    color: white; /* Pour un bon contraste avec le texte */
+    padding: 159px;
+    overflow: auto; 
+    font-size: 73X;
+     margin: 63px ;
+
+
+    
+}
+.aboutimg{
+    float: left; /* L'image flotte à gauche */
+    margin-right: 68px; /* Espace entre l'image et le texte */
+    margin-left: auto;
+    width: 448px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Garde les proportions de l'image */
+}
+.news{
+    background-color: #225d25; /* Vert vif */
+    color: white; /* Pour un bon contraste avec le texte */
+    padding: 63px;
+    overflow: auto; 
+    margin: 62px ;
+    font-size: 35px ;
+    text-align: justify;
+    
+    
+    
+}
+.newsimg{
+    float: left; /* L'image flotte à gauche */
+    margin-right: 87px; /* Espace entre l'image et le texte */
+    margin-left: auto;
+    width: 402px; /* Ajustez la largeur selon vos besoins */
+    height: auto; /* Garde les proportions de l'image */
+}
+.news h2{
+    color: white;
+    padding: 14;
+    font-size: 50PX;
+    margin: 59px;
+    top: 20px; /* Ajustez cette valeur pour régler la position verticale */
+    right: 20px; /* Ajustez cette valeur pour régler la position horizontale */
+    
+    
+}
+
+.products, .artisans, footer {
+    padding: 83px;
+    margin: 63px;
+    background-color: white;
+    border-radius: 8px;
+     overflow: auto;
+}
+
+.products h2, .artisans h2 {
+    color: #2e7d32;
+    padding: 20;
+    font-size: 50PX;
+}
+
+.product, .artisan {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product h3, .artisan {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.socials a {
+    margin: 0 10px;
+    color: #2e7d32;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    color: #2e7d32;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product .description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.btn-add {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #2e7d32;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #e6b800;
+}
+.artisans {
+    background-color: #f9f9f9;
+    padding: 60px;
+    margin: 77px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.artisans h2 {
+    font-size: 2.5em;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.artisan {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+}
+
+.artisan-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn-signup {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #2e7d32;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-signup:hover {
+    background-color: #e6b800;
+}
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 21px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    margin-top: 27px;
+}
+
+.socials a {
+    color: #ffcc00;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+

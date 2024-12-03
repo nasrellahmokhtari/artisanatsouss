@@ -1,0 +1,140 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Section du panier */
+.cart {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cart h2 {
+    color: #2e7d32;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.cart-img {
+    width: 100px;
+    height: auto;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h3 {
+    margin: 0;
+}
+
+.item-details p {
+    margin: 5px 0;
+}
+
+.item-details label {
+    margin-right: 5px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.subtotal {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.btn-remove {
+    background-color: #ff6666;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-remove:hover {
+    background-color: #e60000;
+}
+
+/* Section du total */
+.cart-summary {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cart-summary h3 {
+    font-size: 1.5em;
+    color: #2e7d32;
+}
+
+.btn-checkout {
+    background-color: #ffcc00;
+    color: #2e7d32;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-checkout:hover {
+    background-color: #e6b800;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 59px;
+    text-decoration: none;
+}
+.acceuil h1 {
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.acceuil {
+    background-image: url(64c295fa9580a_1690473978.png);
+      padding: 297px;
+    background-size: cover; 
+     background-repeat: no-repeat;
+ }

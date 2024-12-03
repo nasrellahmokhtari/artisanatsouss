@@ -1,0 +1,107 @@
+.required {
+    color: red;
+}
+
+.registration {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration h1 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.registration label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.registration input,
+.registration textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration .btn-submit {
+    background-color: #ffcc00;
+    color: #2e7d32;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.registration .btn-submit:hover {
+    background-color: #e6b800;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 13px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 59px;
+    text-decoration: none;
+}
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 21px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    margin-top: 27px;
+}
+
+.socials a {
+    color: #ffcc00;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
